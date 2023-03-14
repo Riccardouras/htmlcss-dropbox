@@ -3,9 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+body {
+    font-family: sans-serif;
+}
 header {
-
+ height: 10vh;
 }
 nav{
     position: fixed;
@@ -39,36 +41,53 @@ a{
 }
 .BackGroundColor{
     background-color: #b4d0e7;
-    width: calc(100% - 20px);
-    height: 100vh;
+    height: 76vh;
 }
 
 .ImgSize{
-    width: 50vw;
-    height: 50vh;
+    height: 40vh;
     
 }
-.orange{
-    background-color: orange;
-    height: 30vh;
+.JustifyCenter{
+   justify-content: center;
 }
 .flex{
     display: flex;
 }
-.blue{
-    background-color: blue;
+.JustifyCenter h1{
+    margin: 10vh 35vh;
+    font-size: 4.5em;
+}
+.Box{    
     width: 50%;
     height: 70vh;
 }
-.green{
-    background-color: green;
-    width: 50%;
-    
+.Box:first-child{
+    padding-left: 18%;
+    margin-right: 5%;
 }
+
+.Box button{
+    margin: 8% auto;
+    padding: 1% 2%;
+    background-color: #0061ff;
+    border: none;
+}
+#TextSize{
+    font-size: 0.8em;
+}
+.Box i{
+    padding: 3%;
+    font-size: 3em;
+    margin-left: -3%;
+}
+
+
 .grey{
     background-color: grey;
     height: 60vh;
     width: calc(100% / 3 - 10%);
+    margin-top: 39vh;
 }
 .SpaceAround{
     justify-content: space-around;
