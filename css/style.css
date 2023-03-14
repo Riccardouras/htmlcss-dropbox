@@ -5,13 +5,14 @@
 }
 
 header {
-    height: 100px;
-    background-color: whitesmoke;
+
 }
 nav{
     position: fixed;
     width: 100%;
     height: 10vh;
+    background-color: whitesmoke;
+    box-shadow: #d1d9e1 0,5vh;
 }
 .FlexContainer{
     display: flex;
@@ -19,7 +20,7 @@ nav{
     align-items: center;
     height: 100%;
 }
-.flex{
+.flexStart{
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -35,4 +36,90 @@ nav{
 }
 a{
     margin: 1VH;
+}
+.BackGroundColor{
+    background-color: #b4d0e7;
+    width: 100%;
+    height: 100vh;
+}
+
+.ImgSize{
+    width: 50vw;
+    height: 50vh;
+    
+}
+.orange{
+    background-color: orange;
+    height: 30vh;
+}
+.flex{
+    display: flex;
+}
+.blue{
+    background-color: blue;
+    width: 50%;
+    height: 70vh;
+}
+.green{
+    background-color: green;
+    width: 50%;
+    
+}
+.grey{
+    background-color: grey;
+    height: 60vh;
+    width: calc(100% / 3 - 10%);
+}
+.SpaceAround{
+    justify-content: space-around;
+}
+.Container{
+    margin: 10vh auto;
+    max-width: 70vw;
+    min-height: 30vh;
+}
+.yellowgreen{
+    background-color: yellowgreen;
+    height: 5vh ;
+}
+.yellow{
+    background-color: yellow;
+    height: 40vh;
+}
+.purple{
+    background-color: purple;
+    height: 60vh;
+    width: calc(100% /2)
+}
+.rebeccapurple {
+    background-color: rebeccapurple;
+    height: 60vh;
+    width: calc(100% /2)
+}
+.border{
+    border: 1px solid ;
+    width: calc(100% / 3);
+    height: 50vh;
+}
+.FlexWrap{
+    flex-wrap: wrap;
+}
+.Container100vw{
+    width: calc(100vw);
+    min-height: 100%;
+}
+.Columnsize{
+    width: 30vw;
+    height: 30vh;
+}
+.ColumnsizeCenter{
+    width: 60vw;
+}
+.border2{
+    width: 15vw;
+    height: 15vh;
+    border: 1px solid;
+}
+.FlexRow{
+    flex-direction: row;
 }
