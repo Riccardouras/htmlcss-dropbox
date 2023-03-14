@@ -106,14 +106,35 @@ nav{
     margin-right: 6vh;
     font-size: 0.8em;
 }
-.grey{
-    background-color: grey;
-    height: 60vh;
+.ColumnSize{ 
+    height: 120vh;
     width: calc(100% / 3 - 10%);
     margin-top: 39vh;
 }
+.backgroundwhite{
+    background-color: white;
+    border: 1px solid;
+    height: 5vh;
+}
+.AlignCenter{
+    align-content: center;
+}
 .SpaceAround{
     justify-content: space-around;
+}
+.TextFormatting{
+    padding: 7%;
+    line-height: 2.5em;
+}
+.TexTSize2{
+    font-size: 0.8em;
+}
+.LineHeight{
+    line-height: 1em;
+}
+.ContainerSize2{
+    margin: 0px 34vh;
+    height: 161vh;
 }
 .Container{
     margin: 10vh auto;
