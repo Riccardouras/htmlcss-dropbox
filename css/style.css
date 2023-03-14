@@ -36,9 +36,11 @@ nav{
     display: flex;
     align-items: center;
 }
-a{
+.a{
     margin: 1VH;
+    text-decoration: none;
 }
+
 .BackGroundColor{
     background-color: #b4d0e7;
     height: 76vh;
@@ -72,6 +74,7 @@ a{
     padding: 1% 2%;
     background-color: #0061ff;
     border: none;
+    color: whitesmoke;
 }
 #TextSize{
     font-size: 0.8em;
@@ -81,8 +84,28 @@ a{
     font-size: 3em;
     margin-left: -3%;
 }
-
-
+.MarginRight{
+    margin-right: 20%;
+}
+.flex h2{
+    margin-top: 8%;
+    margin-left: 21%;
+    font-size: 2.3em;
+}
+.PositinRelative{
+    position: relative;
+}
+.PositionAbsolute{
+    position: absolute;
+}
+.Position{
+    top: 117%;
+    left: 21%;
+}
+.Position span{
+    margin-right: 6vh;
+    font-size: 0.8em;
+}
 .grey{
     background-color: grey;
     height: 60vh;
