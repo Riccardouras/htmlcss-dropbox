@@ -141,9 +141,8 @@ nav{
     max-width: 70vw;
     min-height: 30vh;
 }
-.yellowgreen{
-    background-color: yellowgreen;
-    height: 5vh ;
+.Space-Between{
+    justify-content: space-between;
 }
 .yellow{
     background-color: yellow;
@@ -152,7 +151,8 @@ nav{
 .purple{
     background-color: purple;
     height: 60vh;
-    width: calc(100% /2)
+    width: calc(100% /2);
+    object-fit: contain;    
 }
 .rebeccapurple {
     background-color: rebeccapurple;
