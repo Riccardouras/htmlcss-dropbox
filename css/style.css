@@ -241,6 +241,13 @@ nav{
 }
 .ColumnsizeCenter{
     width: 40vw;
+    height: 60vh;
+    overflow-y: scroll;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.ColumnsizeCenter img{
+    height: 10vh;
+    margin: 4%;
 }
 .border2{
     width: calc(100% / 2);
