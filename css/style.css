@@ -188,8 +188,11 @@ nav{
     width: 14vw;
 }
 .yellow{
-    background-color: yellow;
-    height: 40vh;
+    width: 50%;
+    height: 30vh;
+}
+.yellow h1{
+    font-size: 2em;
 }
 .purple{
     height: 60vh;
@@ -226,6 +229,12 @@ nav{
     width: calc(100% - 1vw);
     min-height: 100vh;
 }
+.BrandsSize{
+    height: 5vh;
+}
+.Invert{
+    filter: invert(1);
+}
 .Columnsize{
     width: 30vw;
     height: 30vh;
@@ -236,7 +245,6 @@ nav{
 .border2{
     width: calc(100% / 2);
     height: 30vh;
-    border: 1px solid;
 }
 .FlexRow{
     flex-direction: row;
