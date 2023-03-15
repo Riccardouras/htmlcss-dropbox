@@ -249,6 +249,9 @@ nav{
     height: 10vh;
     margin: 4%;
 }
+.ColumnsizeCenter p{
+    margin: 7%;
+}
 .border2{
     width: calc(100% / 2);
     height: 30vh;
@@ -257,10 +260,17 @@ nav{
     flex-direction: row;
 }
 .acqua{
-    background-color: aqua;
+    background-color: #b4d0e7;
     width: 100%;
-    height: 30vh;
+    height: 36vh;
     margin-top: -40vh;
+}
+.Element h1{
+    color: #61082b;
+}
+.Element button{
+    padding: 1em;
+    border: none;
 }
 .whitesmoke{
     background-color: whitesmoke;
