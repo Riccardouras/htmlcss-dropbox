@@ -87,12 +87,12 @@ nav{
 .MarginRight{
     margin-right: 20%;
 }
-.flex h2{
+.PositionRelative h2{
     margin-top: 8%;
     margin-left: 21%;
     font-size: 2.3em;
 }
-.PositinRelative{
+.PositionRelative{
     position: relative;
 }
 .PositionAbsolute{
@@ -274,4 +274,26 @@ nav{
 }
 .whitesmoke{
     background-color: whitesmoke;
+    line-height: 4em;
+}
+.TextCenter {
+    text-align: center;
+}
+.whitesmoke > div h2{
+    margin-left: 11.5%;
+    font-size: 2.3em;
+}
+.MyDiv:hover div i{
+    transform: rotate(180deg);
+}
+
+.Hide{
+    display: none;
+}
+.MyDiv:hover p{
+    display: block;
+}
+.fa-angle-down{
+    left: 96%;
+    top: 39%;
 }
