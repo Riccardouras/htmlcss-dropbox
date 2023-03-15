@@ -210,9 +210,14 @@ nav{
     background-color: white;
 }
 .border{
-    border: 1px solid ;
     width: calc(100% / 3);
     height: 61vh;
+}
+.border p{
+    font-size: 0.8em;
+}
+.ImgCardSize{
+    height:30vh
 }
 .FlexWrap{
     flex-wrap: wrap;
