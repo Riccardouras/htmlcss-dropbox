@@ -7,7 +7,6 @@ body {
     font-family: sans-serif;
 }
 header {
-   
    min-height: 10vh; 
 }
 nav{
@@ -53,11 +52,11 @@ nav{
 }
 .BackGroundColor{
     background-color: #b4d0e7;
-    height: 82vh;
+    height: 88vh;
 }
 
 .ImgSize{
-    height: 40vh;
+    height: 47vh;
     
 }
 .JustifyCenter{
