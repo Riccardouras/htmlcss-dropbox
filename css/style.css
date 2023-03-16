@@ -125,7 +125,7 @@ nav{
     font-size: 0.8em;
 }
 .ColumnSize{ 
-    height: 100vh;
+    height: 107vh;
     width: calc(100% / 3 - 10%);
     margin-top: 20vh;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -169,6 +169,11 @@ nav{
 }
 .MarginTexT{
     margin-top: 3vh;
+}
+.MarginTexT p:before{
+    content: '\2713';
+    color: #0061ff;
+    padding: 1%;
 }
 .Container{
     margin: 10vh auto;
