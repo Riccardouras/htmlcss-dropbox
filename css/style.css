@@ -7,18 +7,15 @@ body {
     font-family: sans-serif;
 }
 header {
-    position: fixed;
-    width: 100%;
-    height: 10vh;
-    background-color: whitesmoke;
-    box-shadow: #d1d9e1 1vh;
+   
+   min-height: 10vh; 
 }
 nav{
     position: fixed;
-    width: calc(100% - 20px);
+    width: calc(100%);
     height: 10vh;
     background-color: whitesmoke;
-    box-shadow: #d1d9e1 0,5vh;
+    box-shadow: 0 0 0 3px #d1d9e1 ;
 }
 .FlexContainer{
     display: flex;
@@ -56,7 +53,7 @@ nav{
 }
 .BackGroundColor{
     background-color: #b4d0e7;
-    height: 76vh;
+    height: 82vh;
 }
 
 .ImgSize{
@@ -72,6 +69,7 @@ nav{
 .JustifyCenter h1{
     margin: 10vh 35vh;
     font-size: 4.5em;
+    margin-top: 15vh;
 }
 .Box{    
     width: 50%;
