@@ -52,11 +52,11 @@ nav{
 }
 .BackGroundColor{
     background-color: #b4d0e7;
-    height: 88vh;
+    height: 93vh;
 }
 
 .ImgSize{
-    height: 47vh;
+    height: 51vh;
     
 }
 .JustifyCenter{
@@ -76,7 +76,6 @@ nav{
 }
 .Box:first-child{
     padding-left: 18%;
-    margin-right: 5%;
 }
 
 .Box button{
@@ -89,6 +88,9 @@ nav{
 }
 #TextSize{
     font-size: 0.8em;
+}
+.Box p{
+    margin-bottom: 5%;
 }
 .Box i{
     padding: 3%;
